@@ -15,12 +15,12 @@
 		<script src="js/main.js"></script>
 	</head>
 	<body>
-		<div class="header">
-			<span class="logo-name">Fancy Portfolio</span>
+		<div class="nav-header">
+			<span class="logo">Fancy Portfolio</span>
 			<ul class="list-inline text-uppercase text-right">
-				<li><a id="about-link" class="nav-link" href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i><span class="hidden-xs"> About</span></a></li>
-				<li><a id="portfolio-link" class="nav-link" href="#portfolio"><i class="fa fa-folder-open" aria-hidden="true"></i><span class="hidden-xs"> Portfolio</span></a></li>
-				<li><a id="contact-link" class="nav-link" href="#contact"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hidden-xs"> Contact</span></a></li>
+				<li><a class="nav-link" href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i><span class="hidden-xs"> About</span></a></li>
+				<li><a class="nav-link" href="#portfolio"><i class="fa fa-folder-open" aria-hidden="true"></i><span class="hidden-xs"> Portfolio</span></a></li>
+				<li><a class="nav-link" href="#contacts"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hidden-xs"> Contacts</span></a></li>
 			</ul>
 		</div>
 		<div class="description">
@@ -30,72 +30,71 @@
 				<p class="lead text-center">Ada Lovelace</p>
 			</div>
 		</div>
-		
 		<div class="all-page">
-		<div id="about">
-			<h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor sem, feugiat eu feugiat nec, pulvinar sagittis diam. Cras tincidunt vitae quam ac ultricies. Ut eget neque sed dolor vulputate venenatis. Duis ac rhoncus orci, a facilisis nulla. Vivamus vel sem a turpis <a>convallis elementum</a>. Curabitur dolor neque, vehicula ac mauris vel, porttitor dapibus lorem. Vestibulum vitae lectus id lacus mollis luctus.</p>
-			<p>Curabitur a metus ac ex commodo iaculis. Nullam ac ultrices lectus. Duis malesuada velit eu massa maximus eleifend. Vivamus vehicula sollicitudin purus, sed hendrerit nisl malesuada vitae. Fusce convallis lobortis arcu sed ornare. In ut dignissim quam, id molestie ante. Pellentesque tincidunt efficitur hendrerit. Suspendisse mattis urna id mattis porta. Donec viverra eleifend odio, pharetra consectetur mauris aliquam quis. In sed orci ut erat cursus bibendum. Sed sodales justo id molestie fringilla. Curabitur non rutrum felis, id viverra ex. Phasellus non malesuada tellus.</p>
-		</div>
-		<!--  
-		https://placehold.it/1280x720/e79146/ffbe73/?text=シ orange
-		https://placehold.it/1280x720/eac340/fff06d/?text=シ yellow
-		https://placehold.it/1280x720/566b47/839874/?text=シ green
-		https://placehold.it/1280x720/2e343e/5b616b/?text=シ blue
-		-->
-		<div id="portfolio">
-			<h2>Portfolio</h2>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<a class="thumbnail-link" href="https://d2718nis.github.io/freddie-mercury-tribute-page/" target="_blank">
-							<div class="thumbnail">
-								<img src="img/portfolio1.png" alt="Freddie Mercury tribute" width="1280" height="720">
-								<div class="caption">
-									<h3>Freddie Mercury tribute</h3>
-									<p>Simple tribute page for the freecodecamp.com challenge. Used: Google fonts, Bootstrap, jQuery. Optimized both for mobile and desktop.</p>
+			<div id="about" class="about">
+				<h2>About</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor sem, feugiat eu feugiat nec, pulvinar sagittis diam. Cras tincidunt vitae quam ac ultricies. Ut eget neque sed dolor vulputate venenatis. Duis ac rhoncus orci, a facilisis nulla. Vivamus vel sem a turpis <a>convallis elementum</a>. Curabitur dolor neque, vehicula ac mauris vel, porttitor dapibus lorem. Vestibulum vitae lectus id lacus mollis luctus.</p>
+				<p>Curabitur a metus ac ex commodo iaculis. Nullam ac ultrices lectus. Duis malesuada velit eu massa maximus eleifend. Vivamus vehicula sollicitudin purus, sed hendrerit nisl malesuada vitae. Fusce convallis lobortis arcu sed ornare. In ut dignissim quam, id molestie ante. Pellentesque tincidunt efficitur hendrerit. Suspendisse mattis urna id mattis porta. Donec viverra eleifend odio, pharetra consectetur mauris aliquam quis. In sed orci ut erat cursus bibendum. Sed sodales justo id molestie fringilla. Curabitur non rutrum felis, id viverra ex. Phasellus non malesuada tellus.</p>
+			</div>
+			<!--  
+			https://placehold.it/1280x720/e79146/ffbe73/?text=シ orange
+			https://placehold.it/1280x720/eac340/fff06d/?text=シ yellow
+			https://placehold.it/1280x720/566b47/839874/?text=シ green
+			https://placehold.it/1280x720/2e343e/5b616b/?text=シ blue
+			-->
+			<div id="portfolio" class="portfolio">
+				<h2>Portfolio</h2>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<a class="thumbnail-link" href="https://d2718nis.github.io/freddie-mercury-tribute-page/" target="_blank">
+								<div class="thumbnail">
+									<img src="img/portfolio1.png" alt="Freddie Mercury tribute" width="1280" height="720">
+									<div class="caption">
+										<h3>Freddie Mercury tribute</h3>
+										<p>Simple tribute page for the freecodecamp.com challenge. Used: Google fonts, Bootstrap, jQuery. Optimized both for mobile and desktop.</p>
+									</div>
 								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<a class="thumbnail-link" href="https://d2718nis.github.io/random-quote-machine/" target="_blank">
-							<div class="thumbnail">
-								<img src="img/portfolio2.png" alt="Random Quote Machine" width="1280" height="720">
-								<div class="caption">
-									<h3>Random quote machine</h3>
-									<p>Random quote machine app for the freecodecamp.com challenge. Used: Google fonts, jQuery. Optimized both for mobile and desktop.</p>
+							</a>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<a class="thumbnail-link" href="https://d2718nis.github.io/random-quote-machine/" target="_blank">
+								<div class="thumbnail">
+									<img src="img/portfolio2.png" alt="Random Quote Machine" width="1280" height="720">
+									<div class="caption">
+										<h3>Random quote machine</h3>
+										<p>Random quote machine app for the freecodecamp.com challenge. Used: Google fonts, jQuery. Optimized both for mobile and desktop.</p>
+									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<a class="thumbnail-link" href="https://d2718nis.github.io/local-weather-app/" target="_blank">
-							<div class="thumbnail">
-								<img src="img/portfolio3.png" alt="Local Weather App" width="1280" height="720">
-								<div class="caption">
-									<h3>Local weather app</h3>
-									<p>Local weather app for the freecodecamp.com challenge. Used: Google fonts, jQuery, weather-icons, openweathermap and freegeoip APIs.</p>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<a class="thumbnail-link" href="https://d2718nis.github.io/local-weather-app/" target="_blank">
+								<div class="thumbnail">
+									<img src="img/portfolio3.png" alt="Local Weather App" width="1280" height="720">
+									<div class="caption">
+										<h3>Local weather app</h3>
+										<p>Local weather app for the freecodecamp.com challenge. Used: Google fonts, jQuery, weather-icons, openweathermap and freegeoip APIs.</p>
+									</div>
 								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="thumbnail">
-							<img src="img/thumbnail4.png" alt="Portfolio thumbnail" width="1280" height="720">
-							<div class="caption">
-								<h3>Coming soon</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor sem, feugiat eu feugiat nec, pulvinar sagittis diam. Cras tincidunt vitae quam ac ultricies.</p>
+							</a>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="thumbnail">
+								<img src="img/thumbnail4.png" alt="Portfolio thumbnail" width="1280" height="720">
+								<div class="caption">
+									<h3>Coming soon</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor sem, feugiat eu feugiat nec, pulvinar sagittis diam. Cras tincidunt vitae quam ac ultricies.</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		</div>
-		<div id="contact">
+		<div id="contacts" class="contacts">
 			<h3>Contact me</h3>
 			<div class="text-center">
 				<a class="btn btn-social-icon btn-github" href="https://github.com/" target="_blank">
@@ -112,19 +111,15 @@
 				</a>
 			</div>
 		</div>
-		<div id="copyright">
+		<div class="credits">
 			<p class="text-center">February 2017 by Denis Z.</p>
 		</div>
 	</body>
 </html>
 <!--
-======== html ========
 TODO: replace quote with something better
 TODO: replace lorem ipsum
 TODO: think about bottom share buttons design
-TODO: save thumbnail images, make at least 4 of them (add the blue one)
 TODO: make pagination for the portfolio elements
 TODO: optimize size of thumbnail images
-======== css  ========
-======== js   ========
 -->

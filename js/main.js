@@ -1,7 +1,8 @@
 $(document).ready(function(){
+
 	// Smooth scrolling
-	$('a[href^="#"]').on('click',function (e) {
-		e.preventDefault();
+	$('a[href^="#"]').on('click',function (event) {
+		event.preventDefault();
 
 		var target = this.hash;
 		var $target = $(target);
@@ -12,12 +13,13 @@ $(document).ready(function(){
 			window.location.hash = target;
 		});
 	});
+
 	// Easter egg
-	$(".logo-name").on("click", function() {
-		if ($(".logo-name").text() == "Fancy Portfolio") {
-			$(".logo-name").text("In Code We Trust");
+	$('.logo').on('click', function() {
+		if ($('.logo').text() == 'Fancy Portfolio') {
+			$('.logo').text('In Code We Trust');
 		} else {
-			$(".logo-name").text("Fancy Portfolio");
+			$('.logo').text('Fancy Portfolio');
 		}
 	});
 });
