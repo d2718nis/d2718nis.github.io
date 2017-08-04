@@ -1,10 +1,10 @@
 @mixin for-min-340 {
-	@media (min-width: 340px) { 
+	@media (min-width: 340px) {
 		@content;
 	}
 }
 @mixin for-min-768 {
-	@media (min-width: 768px) { 
+	@media (min-width: 768px) {
 		@content;
 	}
 }
@@ -17,7 +17,7 @@ body {
 h1, h2, h3 {
 	text-align: center;
 	margin-top: 0;
-	font-family: 'Sansita', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 a {
 	color: #ff4a4b;
@@ -26,7 +26,7 @@ a {
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
 }
-a:hover, 
+a:hover,
 a:active {
 	color: #e74a4a;
 	cursor: pointer;
@@ -48,7 +48,7 @@ a:active {
 	float: left;
 	margin-left: 10px;
 	font-size: 26px;
-	font-family: 'Lobster', cursive;
+	font-family: 'Roboto', sans-serif;
 	cursor: default;
 }
 .nav-header > ul {
@@ -74,7 +74,7 @@ a:active {
 	-webkit-transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 	transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
-.nav-header .nav-link:hover, 
+.nav-header .nav-link:hover,
 .nav-header .nav-link:active {
 	text-decoration: none;
 	color: #fff;
@@ -94,6 +94,7 @@ a:active {
 	min-height: 300px;
 	color: #fff;
 	padding-top: 40px;
+	font-family: 'Roboto', sans-serif;
 	background-color: #2e303b;
 	background-image: url(../img/background.png);
 	background-position: center center;
@@ -110,6 +111,7 @@ a:active {
 }
 .quote-delimiter {
 	width: 50px;
+	border-top: 1px solid #aaa;
 }
 /* ========== About section ========== */
 .about {
@@ -117,6 +119,18 @@ a:active {
 	padding-top: 10px;
 	background-color: #fff;
 	border-bottom: 1px solid #eee;
+	.img-d2718nis {
+		max-width: 180px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		border: 4px solid white;
+		box-shadow: 0 0 10px 1px #ccc;
+		-moz-transition: box-shadow 0.5s;
+		-o-transition: box-shadow 0.5s;
+		-webkit-transition: box-shadow 0.5s;
+		transition: box-shadow 0.5s;
+	}
 }
 /* ========== Portfolio section ========== */
 .portfolio {
@@ -124,9 +138,9 @@ a:active {
 	padding-top: 30px;
 	border-bottom: 1px solid #eee;
 }
-.portfolio .thumbnail-link, 
-.portfolio .thumbnail-link:hover, 
-.portfolio .thumbnail-link:active, 
+.portfolio .thumbnail-link,
+.portfolio .thumbnail-link:hover,
+.portfolio .thumbnail-link:active,
 .portfolio .thumbnail-link:visited {
 	text-decoration: none;
 }
